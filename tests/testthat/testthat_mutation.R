@@ -1,5 +1,5 @@
 library(testthat)
-source("mutation.R")
+# source("mutation.R")
 context("bitFlipMutation()")
 
 test_that("Invalid input", {

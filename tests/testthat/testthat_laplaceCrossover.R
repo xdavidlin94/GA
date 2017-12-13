@@ -1,5 +1,5 @@
 library(testthat)
-source("geneticOperators.R")
+# source("geneticOperators.R")
 context("laplaceCrossover()")
 
 test_that("Offspring's length stays the same after Crossover",{

@@ -1,5 +1,5 @@
 library(testthat)
-source("geneticOperators.R")
+# source("geneticOperators.R")
 context("singlePtCrossover()")
 
 test_that("Invalid input", {
