@@ -1,0 +1,16 @@
+Package: GA
+Type: Package
+Title: Genetic Algorithm for Feature Selection in Regression Problems
+Version: 0.1.0
+Authors@R: as.person(c(
+    "David Lin <david_lin@berkeley.edu> [aut, cre]", 
+    "Danni Deng <danni_deng@berkeley.edu> [aut]",
+    "Aakriti Kaul <aakritikaul@berkeley.edu> [aut]",
+    "Mengling Liu <mengling_liu0223@berkeley.edu> [aut]"
+  ))
+Description: An R package to allow variable selection for regression problems using a genetic algorithm. Users can choose to define specific parameters like - fitness function - depending on the problem at hand. Several genetic operators are available as well to be chosen based on specific regression task at hand.
+Depends: R (>= 3.0)
+License: CC0
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
