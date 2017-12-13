@@ -1,4 +1,5 @@
 # main select function
+#' export
 select <- function(
   data,
   yColumn,

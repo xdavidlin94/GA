@@ -66,3 +66,4 @@ selection <- function(AICs, k, population, populationSize) {
 
   return(parents)
 }
+
