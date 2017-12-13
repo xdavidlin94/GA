@@ -2,8 +2,7 @@
 % Please edit documentation in R/select.R
 \name{select}
 \alias{select}
-\title{export
-Genetic Algorithm for Feature Selection}
+\title{Genetic Algorithm for Feature Selection}
 \usage{
 select(data, yColumn, fitnessFUN = match.fun(AIC), k = 2,
   geneticOperator = match.fun(singlePtCrossover),

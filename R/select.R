@@ -1,5 +1,4 @@
 # main select function
-#' export
 select <- function(
   data,
   yColumn,
@@ -9,7 +8,6 @@ select <- function(
   family = match.fun(gaussian),
   nIterations = 200
 ) {
-
   #' Genetic Algorithm for Feature Selection
   #'
   #' Genetic Algorithm for Feature Selection. User must pass in a dataframe and integer
@@ -77,3 +75,4 @@ select <- function(
   }
   return(bestFeatures)
 }
+
