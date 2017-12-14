@@ -12,6 +12,8 @@ produceOffspring(parents, nFeatures, populationSize, geneticOperator)
 \item{nFeatures}{the number of features, which determines length of each vector}
 
 \item{populationSize}{size of initial population (# of vectors)}
+
+\item{geneticOperator}{genetic operator to use}
 }
 \value{
 matrix containing the new population vectors to be used in next iteration

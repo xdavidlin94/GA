@@ -7,7 +7,7 @@ produceOffspring <- function(parents, nFeatures, populationSize,
   #' @param parents a matrix of parent vectors that will be used to produce offsprings
   #' @param nFeatures the number of features, which determines length of each vector
   #' @param populationSize size of initial population (# of vectors)
-  #' @param geneticOperator genetic operator to use 
+  #' @param geneticOperator genetic operator to use
   #'
   #' @return matrix containing the new population vectors to be used in next iteration
 
