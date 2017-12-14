@@ -3,8 +3,8 @@ library(testthat)
 context("arithmeticCrossover()")
 
 test_that("Invalid input", {
-  expect_error(arithmeticCrossover(), 'argument "nFeatures" is missing, with no default')
-  expect_error(arithmeticCrossover(, , 10), 'argument "parent1" is missing, with no default')
+  expect_error(arithmeticCrossover(), 'argument "parent1" is missing, with no default')
+  expect_error(arithmeticCrossover(10), 'argument "parent2" is missing, with no default')
 })
 
 test_that("Offspring's length stays the same after Crossover",{
@@ -42,3 +42,4 @@ test_that("Crossover didn't change the features",{
 
   expect_equal(sum(children[[1]])+sum(children[[2]]), nFeatures)
 })
+
