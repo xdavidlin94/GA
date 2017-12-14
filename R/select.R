@@ -25,7 +25,7 @@ select <- function(
   #' @param family a description of the error distribution and
   #' link function to be used in the model. Default is gaussian (standard lm()). To use
   #' glm(), specify a different family such as poisson(), etc...
-  #' @param nInterations integer specifying number of iterations before stopping
+  #' @param nIterations integer specifying number of iterations before stopping
   #'
   #' @return Binary vector detailing optimal features to use
   #'

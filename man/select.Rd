@@ -25,7 +25,7 @@ input and return two children}
 link function to be used in the model. Default is gaussian (standard lm()). To use
 glm(), specify a different family such as poisson(), etc...}
 
-\item{nInterations}{integer specifying number of iterations before stopping}
+\item{nIterations}{integer specifying number of iterations before stopping}
 }
 \value{
 Binary vector detailing optimal features to use
